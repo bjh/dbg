@@ -1,5 +1,11 @@
 #### Getting Started
 
+- run `go get github.com/bjh/dbg`
+- write `init` function to set up the logging/output
+- call with DEBUG=true
+- `DEBUG=true go run amazing-project.go`
+
+
 ```go
 package main
 
